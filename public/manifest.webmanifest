@@ -1,0 +1,9 @@
+{
+  "name": "Weather app",
+  "short_name": "Weather",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F3F4F6",
+  "theme_color": "#fff"
+}
