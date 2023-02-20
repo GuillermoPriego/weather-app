@@ -1,48 +1,49 @@
 # Weather App
 
-## How to Run and Install Dependencies
+## Requirements
 
-1.  Clone the Repository.
+- Node.js (version 18.12.1 or higher)
+- Yarn or npm package manager
 
-    To get started, clone the repository from GitHub by running the following command in your terminal:
-
+## Installation
+1. Clone the repository.
     ```bash
     git clone https://github.com/GuillermoPriego/weather-app.git
     ```
-
-2.  Install Dependencies.
-
-    Once you have cloned the repository, navigate into the project directory by running the following command:
-
-    ```
+2. Navigate to the project directory.
+    ```bash
     cd weather-app
     ```
-
-3.  Install the project dependencies.
-
+3. Run yarn or npm install to install the dependencies.
+    ```bash
+    yarn
+    ```
     ```bash
     npm install
     ```
 
-4.  Run the Next.js App
+## Browser Support
+This project uses the following browser support configuration:
+```json
+"browserslist": [
+  "last 2 versions",
+  "> 5%",
+  "maintained node versions",
+  "not dead"
+]
+```
 
-    ```bash
-    npm run dev
-    ```
+This means that the project is intended to work in the last two versions of major browsers, any browser with more than 5% usage share, and any version of Node.js that is currently being maintained. The `not dead` option includes any browsers that have a usage share of at least 0.5% or are still being maintained.
 
-    This command will start the development server and the app will be available at http://localhost:3000. Any changes you make to the code will automatically be reflected in the app.
+## Usage
+1. Create a file on the root of the project called: `.env.local`
+1. Add your OPENWEATHER_APIKEY to the file `.env.local`, follow the example file `.env.example`.
+2. Run `yarn dev` or `npm run dev` to start the development server.
+3. Open your web browser and go to http://localhost:3000 to view the application.
 
-    If you want to build the app for production, run the following command:
-
-    ```bash
-    npm run build
-    ```
-
-    To start the production server, run the following command:
-
-    ```bash
-    npm start
-    ```
+## Building for production
+Run `yarn build` or `npm run build` to build the production version of the application.
+Run `yarn start` or `npm start` to start the production server.
 
 ## Folder structure
 
